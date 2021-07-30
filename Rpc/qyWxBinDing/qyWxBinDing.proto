@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package qyWxBinDing;
+
+message Request {
+  string ErpName = 1;
+  string Pwd = 2;
+  string WxName = 3;
+  string Cron = 4;
+}
+
+
+message Response {
+  string Msg = 1;
+  string Number = 2;
+  int64  Code = 3;
+}
+
+message QyUserIdRequest {
+  string UserId = 1;
+}
+
+message QyUserIdResponse {
+  string Token = 1;
+  int64 Expire = 2;
+}
+
+service QyWxBinDing {
+  rpc QyBinDing(Request) returns(Response);
+  rpc QyUserId(QyUserIdRequest) returns(QyUserIdResponse);
+}
+
