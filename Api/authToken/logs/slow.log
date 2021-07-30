@@ -1,0 +1,2 @@
+{"@timestamp":"2021-07-13T16:37:00.611+08","level":"slow","content":"[HTTP] 200 - /to_ken/dataByTime - 10.28.83.123:64777 - PostmanRuntime/7.26.8 - slowcall(1882.0ms)","trace":"37f360c4718e512b","span":"0"}
+{"@timestamp":"2021-07-13T17:14:43.700+08","level":"slow","content":"[HTTP] 200 - /to_ken/dataByTime - 10.28.83.123:60722 -  - slowcall(3150.0ms)","trace":"5890ff71d5551bb0","span":"0"}

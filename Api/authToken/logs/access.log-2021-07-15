@@ -1,0 +1,6 @@
+{"@timestamp":"2021-07-15T10:37:17.639+08","level":"info","content":"Starting prometheus agent at 10.28.83.123:9099"}
+{"@timestamp":"2021-07-15T10:37:33.713+08","level":"info","content":"200 - /to_ken/dataByTime - 10.28.83.123:54981 -  - 1.0ms","trace":"ed1cabafceadc230","span":"0"}
+{"@timestamp":"2021-07-15T10:46:07.394+08","level":"info","content":"200 - /to_ken/dataByTime - 10.28.83.123:53837 -  - 0.0ms","trace":"d46506811439661d","span":"0"}
+{"@timestamp":"2021-07-15T11:45:08.153+08","level":"info","content":"200 - /to_ken/dataByTime - 10.28.83.123:57587 -  - 0.0ms","trace":"211aaa28fc19b41f","span":"0"}
+{"@timestamp":"2021-07-15T11:45:18.142+08","level":"info","content":"200 - /to_ken/dataByTime - 10.28.83.123:57587 -  - 0.0ms","trace":"af8084d1baedbcb0","span":"0"}
+{"@timestamp":"2021-07-15T11:52:24.265+08","level":"info","content":"200 - /to_ken/dataByTime - 10.28.83.123:60876 -  - 0.0ms","trace":"445ab9a6d558df31","span":"0"}

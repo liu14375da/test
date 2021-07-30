@@ -1,0 +1,25 @@
+type (
+	UserRequest {
+		Mobile string `form:"mobile"`
+		Passwd string `form:"passwd"`
+		Code   string `form:"code,optional"`
+	}
+
+	UserResponse {
+		Id        int    `json:"id"`
+		Token     string `json:"token"`
+		Expire    int    `json:"expire"`
+		Iat       int    `json:"iat"`
+		UserName  string `json:"user_name"`
+		CompanyId string `json:"company_id"`
+		No        string `json:"staff_id"`
+	}
+)
+
+service user-api {
+	@server(
+		handler: authTokenTest
+		folder: user
+	)
+	post /auth/token(UserRequest) returns(UserResponse)
+}
