@@ -1,0 +1,10 @@
+Name: unifiedlogin.rpc
+ListenOn: 127.0.0.1:8080
+Log:
+  Mode: console
+  Path: ./unifiedLogin/logs
+  Level: info
+Prometheus:
+  Host: 10.28.83.128
+  Port: 4567
+  Path: /metrics

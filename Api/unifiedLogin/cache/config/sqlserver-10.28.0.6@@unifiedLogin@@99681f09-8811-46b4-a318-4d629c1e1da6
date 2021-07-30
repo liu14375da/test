@@ -1,0 +1,7 @@
+Sqlserver:
+  Isdebug: true
+  Server: "10.28.83.128"
+  Database: bsMaster
+  Port: "1433"
+  User: tempwrite
+  Password: zxb.test

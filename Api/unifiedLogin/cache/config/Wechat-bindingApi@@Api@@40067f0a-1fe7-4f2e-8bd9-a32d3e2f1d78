@@ -1,0 +1,12 @@
+qywxbinding:
+  Name: qyWxBinDing-api
+  Host: 0.0.0.0
+  Port: 8894
+  Log:
+    Mode: console
+    Path: ./qyWxBinDing/logs
+    Level: info
+  Prometheus:
+    Host: 10.28.83.128
+    Port: 8893
+    Path: /metrics

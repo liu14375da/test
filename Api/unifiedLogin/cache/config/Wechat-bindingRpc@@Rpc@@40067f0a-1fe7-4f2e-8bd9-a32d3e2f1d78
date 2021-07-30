@@ -1,0 +1,15 @@
+QyWx:
+  Corpid: wx4f64958c454849c1
+  Corpsecret: 5PBdU9YAWam-yStJHLKwgO4rOiXVpYQCSoJHbLjtaFI
+
+qywxbinding:
+  Name: qywxbinding.rpc
+  ListenOn: 127.0.0.1:8088
+  Log:
+    Mode: console
+    Path: ./qyWxBinDing/logs
+    Level: info
+  Prometheus:
+    Host: 10.28.83.123
+    Port: 4568
+    Path: /metrics

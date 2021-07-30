@@ -1,0 +1,11 @@
+Name: unifiedLogin-api
+Host: 0.0.0.0
+Port: 8083
+Log:
+  Mode: console
+  Path: ./unifiedLogin/logs
+  Level: info
+Prometheus:
+  Host: 10.28.83.128
+  Port: 8870
+  Path: /metrics

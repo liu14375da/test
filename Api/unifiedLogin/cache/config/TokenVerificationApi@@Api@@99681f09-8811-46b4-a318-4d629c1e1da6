@@ -1,0 +1,12 @@
+Name: authToken-api
+Host: 0.0.0.0
+Port: 8896
+
+Log:
+  Mode: authToken
+  Path: ./Api/authToken/logs
+  Level: info
+Prometheus:
+  Host: 10.28.83.123
+  Port: 9099
+  Path: /metrics 
