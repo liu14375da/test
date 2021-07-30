@@ -25,6 +25,7 @@ func RegisterHandlers(engine *rest.Server, serverCtx *svc.ServiceContext) {
 				Path:    "/to_ken/refresh",
 				Handler: AuthTokenRefresh(serverCtx),
 			},
+
 		},
 	)
 }
