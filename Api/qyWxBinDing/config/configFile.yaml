@@ -1,0 +1,15 @@
+# 有多个nacos时，请用逗号分开，ip，port，NamespaceId，Name，RotateTime，LogLevel数量必须一致
+Nacos:
+  Ip: [ "10.28.83.128" ] # nacos IP
+  Port: [ 8848 ] # nacos 端口
+  NamespaceId: [ 40067f0a-1fe7-4f2e-8bd9-a32d3e2f1d78 ] # nacos 命名ID
+  Name: [ prod ] # 命名
+  RotateTime: [ 1h ]
+  LogLevel: [ debug ]
+  # LogDir: [ ./nacos/server/log ]
+  # CacheDir: [ ./nacos/server/cache ]
+
+RegisterService:
+  Prot: 8081
+  # GroupName: ["1","1"]
+  ClusterName: qywx
